@@ -23,6 +23,8 @@
         rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap"
         rel="stylesheet" />
+    <!-- 添加更多现代字体 -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Core theme CSS (includes Bootstrap)-->
     <link type="text/css" href="static/css/styles.css" rel="stylesheet" />
@@ -77,6 +79,10 @@
     <script type="text/javascript" src="static/js/scripts.js"></script>
     <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
 
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 
 <body id="page-top">
@@ -93,17 +99,18 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#home">HOME</a>
+                        <a class="nav-link me-lg-3" href="#home"><i class="bi bi-house-fill"></i>HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#awards">AWARDS</a>
+                        <a class="nav-link me-lg-3" href="#publications"><i class="bi bi-journal-text"></i>Research</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#experience">EXPERIENCE</a>
+                        <a class="nav-link me-lg-3" href="#awards"><i class="bi bi-trophy-fill"></i>AWARDS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
+                        <a class="nav-link me-lg-3" href="#experience"><i class="bi bi-briefcase-fill"></i>Service</a>
                     </li>
+
                 </ul>
             </div>
         </div>
@@ -113,7 +120,7 @@
     <section class="top-section" style="background-image: url('static/assets/img/background.png');">
         <div class="top-section-content">
             <div class="container px-5">
-                <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h2>
+                <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt" data-aos="fade-up" data-aos-duration="1000"></h2>
             </div>
         </div>
     </section>
@@ -121,17 +128,17 @@
 
     <!-- Photo -->
     <div class="container px-5">
-        <div id="avatar">
+        <div id="avatar" data-aos="fade-left" data-aos-duration="800">
             <img class="shadow" src="static/assets/img/photo.jpg">
         </div>
     </div>
     <!-- Photo -->
 
     <!-- Home -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home">
+    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home" data-aos="fade-up" data-aos-duration="800">
         <div class="container px-5">
             <header>
-                <h2 id="home-subtitle"> </h2>
+                <h2 id="home-subtitle"><i class="bi bi-person-fill"></i>HOME</h2>
                 <!-- <span class="bi bi-list"></span> -->
             </header>
             <div class="main-body" id="home-md"></div>
@@ -140,7 +147,7 @@
     <!-- Home -->
 
     <!-- Awards -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="awards">
+    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="awards" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
         <div class="container px-5">
             <header>
                 <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>AWARDS </h2>
@@ -152,7 +159,7 @@
     <!-- Awards -->
 
     <!-- Experience -->
-    <section class="bg-gradient-primary-to-secondary-dark mt5 md5" id="experience">
+    <section class="bg-gradient-primary-to-secondary-dark mt5 md5" id="experience" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
         <div class="container px-5">
             <header>
                 <h2 id="experience-subtitle"><i class="bi bi-briefcase-fill"></i> EXPERIENCE </h2>
@@ -163,10 +170,10 @@
     <!-- Experience -->
 
     <!-- Publications -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
+    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="publications" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
         <div class="container px-5">
             <header>
-                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
+                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>PUBLICATIONS</h2>
             </header>
             <div class="main-body" id="publications-md"></div>
 
@@ -179,13 +186,23 @@
         <div class="container px-5">
             <div class="text-white-50 small">
                 <div id="copyright-text" class="mb-2"></div>
-                <a id="github-link" href="https://github.com/senli1073">Github</a>
+                <a id="github-link" href="https://github.com/senli1073" class="text-white">
+                    <i class="bi bi-github"></i> Github
+                </a>
                 <span class="mx-1">&middot;</span>
-                <a id="license-link"
-                    href="https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE">License</a>
+                <a id="license-link" href="https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE" class="text-white">
+                    <i class="bi bi-file-earmark-text"></i> License
+                </a>
             </div>
         </div>
     </footer>
+
+    <!-- Initialize AOS -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            AOS.init();
+        });
+    </script>
 
 </body>
 
