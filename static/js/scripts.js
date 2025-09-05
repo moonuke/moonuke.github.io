@@ -60,4 +60,13 @@ window.addEventListener('DOMContentLoaded', event => {
             .catch(error => console.log(error));
     })
 
+    // 添加对News部分的支持
+    if (document.getElementById('news-md')) {
+        fetch('contents/news.md')
+            .then(response => response.text())
+            .then(text => {
+                document.getElementById('news-md').innerHTML = marked.parse(text);
+            });
+    }
+
 }); 
