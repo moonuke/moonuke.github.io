@@ -11,10 +11,10 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #6a11cb;
-  --bs-indigo: #6610f2;
-  --bs-purple: #6a11cb;
-  --bs-pink: #d63384;
+  --bs-blue: #5271ff;
+  --bs-indigo: #a05bff;
+  --bs-purple: #a05bff;
+  --bs-pink: #ff61ab;
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
@@ -34,16 +34,16 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #6a11cb;
-  --bs-secondary: #8e44ad;
+  --bs-primary: #5271ff;
+  --bs-secondary: #a05bff;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 106, 17, 203;
-  --bs-secondary-rgb: 142, 68, 173;
+  --bs-primary-rgb: 82, 113, 255;
+  --bs-secondary-rgb: 160, 91, 255;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -54,15 +54,15 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: Inter, Poppins, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Poppins, Mulish, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  --bs-body-font-family: Inter, Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 500;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-bg: #ffffff;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -73,8 +73,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #6a11cb;
-  --bs-link-hover-color: #4a0072;
+  --bs-link-color: #5271ff;
+  --bs-link-hover-color: #a05bff;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -2855,36 +2855,36 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #6a11cb;
-  --bs-btn-border-color: #6a11cb;
+  --bs-btn-bg: #5271ff;
+  --bs-btn-border-color: #5271ff;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #4a0072;
-  --bs-btn-hover-border-color: #4a0072;
-  --bs-btn-focus-shadow-rgb: 106, 17, 203;
+  --bs-btn-hover-bg: #4560d9;
+  --bs-btn-hover-border-color: #4560d9;
+  --bs-btn-focus-shadow-rgb: 82, 113, 255;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #4a0072;
-  --bs-btn-active-border-color: #4a0072;
+  --bs-btn-active-bg: #4560d9;
+  --bs-btn-active-border-color: #4560d9;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #6a11cb;
-  --bs-btn-disabled-border-color: #6a11cb;
+  --bs-btn-disabled-bg: #5271ff;
+  --bs-btn-disabled-border-color: #5271ff;
 }
 
 .btn-secondary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #8e44ad;
-  --bs-btn-border-color: #8e44ad;
+  --bs-btn-bg: #a05bff;
+  --bs-btn-border-color: #a05bff;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #772c91;
-  --bs-btn-hover-border-color: #772c91;
-  --bs-btn-focus-shadow-rgb: 142, 68, 173;
+  --bs-btn-hover-bg: #8949e0;
+  --bs-btn-hover-border-color: #8949e0;
+  --bs-btn-focus-shadow-rgb: 160, 91, 255;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #772c91;
-  --bs-btn-active-border-color: #772c91;
+  --bs-btn-active-bg: #8949e0;
+  --bs-btn-active-border-color: #8949e0;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #8e44ad;
-  --bs-btn-disabled-border-color: #8e44ad;
+  --bs-btn-disabled-bg: #a05bff;
+  --bs-btn-disabled-border-color: #a05bff;
 }
 
 .btn-success {

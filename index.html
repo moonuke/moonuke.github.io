@@ -24,7 +24,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap"
         rel="stylesheet" />
     <!-- 添加更多现代字体 -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- Core theme CSS (includes Bootstrap)-->
     <link type="text/css" href="static/css/styles.css" rel="stylesheet" />
@@ -83,14 +84,19 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+    <!-- Particles.js for background -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
 </head>
 
 <body id="page-top">
+    <!-- Particles background -->
+    <div id="particles-js"></div>
+
     <!-- Navigation-->
     <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
             <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top"></a>
-            <!-- <a href="#page-top"><img src="static/assets/img/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 MENU
@@ -110,14 +116,13 @@
                     <li class="nav-item">
                         <a class="nav-link me-lg-3" href="#experience"><i class="bi bi-briefcase-fill"></i>Service</a>
                     </li>
-
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- Top Section -->
-    <section class="top-section" style="background-image: url('static/assets/img/background.png');">
+    <section class="top-section" style="background-image: url('static/assets/img/background.png'); background-position: center center;">
         <div class="top-section-content">
             <div class="container px-5">
                 <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt" data-aos="fade-up" data-aos-duration="1000"></h2>
@@ -139,7 +144,6 @@
         <div class="container px-5">
             <header>
                 <h2 id="home-subtitle"><i class="bi bi-person-fill"></i>HOME</h2>
-                <!-- <span class="bi bi-list"></span> -->
             </header>
             <div class="main-body" id="home-md"></div>
         </div>
@@ -153,13 +157,12 @@
                 <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>AWARDS </h2>
             </header>
             <div class="main-body" id="awards-md"></div>
-
         </div>
     </section>
     <!-- Awards -->
 
     <!-- Experience -->
-    <section class="bg-gradient-primary-to-secondary-dark mt5 md5" id="experience" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="experience" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
         <div class="container px-5">
             <header>
                 <h2 id="experience-subtitle"><i class="bi bi-briefcase-fill"></i> EXPERIENCE </h2>
@@ -176,7 +179,6 @@
                 <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>PUBLICATIONS</h2>
             </header>
             <div class="main-body" id="publications-md"></div>
-
         </div>
     </section>
     <!-- Publications  -->
@@ -184,7 +186,7 @@
     <!-- Footer-->
     <footer class="bg-bottom text-center py-5">
         <div class="container px-5">
-            <div class="text-white-50 small">
+            <div class="text-white small">
                 <div id="copyright-text" class="mb-2"></div>
                 <a id="github-link" href="https://github.com/senli1073" class="text-white">
                     <i class="bi bi-github"></i> Github
@@ -197,10 +199,118 @@
         </div>
     </footer>
 
-    <!-- Initialize AOS -->
+    <!-- Initialize AOS and Particles.js -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
+            // 初始化 AOS
             AOS.init();
+            
+            // 初始化 particles.js
+            particlesJS('particles-js', {
+                "particles": {
+                    "number": {
+                        "value": 80,
+                        "density": {
+                            "enable": true,
+                            "value_area": 800
+                        }
+                    },
+                    "color": {
+                        "value": ["#5271ff", "#a05bff", "#ff61ab"]
+                    },
+                    "shape": {
+                        "type": "circle",
+                        "stroke": {
+                            "width": 0,
+                            "color": "#000000"
+                        },
+                        "polygon": {
+                            "nb_sides": 5
+                        }
+                    },
+                    "opacity": {
+                        "value": 0.2,
+                        "random": false,
+                        "anim": {
+                            "enable": false,
+                            "speed": 1,
+                            "opacity_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "size": {
+                        "value": 3,
+                        "random": true,
+                        "anim": {
+                            "enable": false,
+                            "speed": 40,
+                            "size_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "line_linked": {
+                        "enable": true,
+                        "distance": 150,
+                        "color": "#a05bff",
+                        "opacity": 0.2,
+                        "width": 1
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 2,
+                        "direction": "none",
+                        "random": false,
+                        "straight": false,
+                        "out_mode": "out",
+                        "bounce": false,
+                        "attract": {
+                            "enable": false,
+                            "rotateX": 600,
+                            "rotateY": 1200
+                        }
+                    }
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                        "onhover": {
+                            "enable": true,
+                            "mode": "grab"
+                        },
+                        "onclick": {
+                            "enable": true,
+                            "mode": "push"
+                        },
+                        "resize": true
+                    },
+                    "modes": {
+                        "grab": {
+                            "distance": 140,
+                            "line_linked": {
+                                "opacity": 0.6
+                            }
+                        },
+                        "bubble": {
+                            "distance": 400,
+                            "size": 40,
+                            "duration": 2,
+                            "opacity": 8,
+                            "speed": 3
+                        },
+                        "repulse": {
+                            "distance": 200,
+                            "duration": 0.4
+                        },
+                        "push": {
+                            "particles_nb": 4
+                        },
+                        "remove": {
+                            "particles_nb": 2
+                        }
+                    }
+                },
+                "retina_detect": true
+            });
         });
     </script>
 
