@@ -1,7 +1,7 @@
 ## Tutor
 
-- CS1001A - Computer Programming A, University of Science and Technology of China (USTC), 2017 Spring, Instructor: Dr. Dong Yin
-- COMP6109P - Advanced Artificial Intelligence, University of Science and Technology of China (USTC), 2018 Spring, Instructor: Dr. Dong Yin
+- CS1001A - Computer Programming A, University of Science and Technology of China (USTC), 2017 Spring, Instructor: Prof. Dong Yin
+- COMP6109P - Advanced Artificial Intelligence, University of Science and Technology of China (USTC), 2018 Spring, Instructor: Prof. Dong Yin
 
 ## Academic Service
 
