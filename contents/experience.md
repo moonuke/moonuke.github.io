@@ -5,7 +5,7 @@
 
 ## Academic Service
 
-- ICSE 4th International Workshop on Responsible AI Engineering, [RAIE@ICSE2026](https://conf.researchr.org/home/icse-2026/raie-2026#Call-for-Papers), Program Committee
+- ICSE [RAIE@ICSE2026](https://conf.researchr.org/home/icse-2026/raie-2026#Call-for-Papers), [AGENT@ICSE2026](https://conf.researchr.org/home/icse-2026/agent-2026#Call-for-Papers), and [UISE@ICSE2026](https://conf.researchr.org/home/icse-2026/agent-2026#Call-for-Papers), Program Committee
 - ICSE 2026 - The 47th IEEE/ACM International Conference on Software Engineering, Reviewer
 - CHI 2025 - Generative AI and Human-Computer Interaction Workshop
 - CHI 2024 - Computational User Interface Workshop
