@@ -3,6 +3,8 @@ Please see full the publication list in [Google Scholar](https://scholar.google.
 
 ---
 
+- **[TOSEM]** Confidence vs. Competence: Misalignment in Judgment and Performance for Agentic Software Repair [[code]](https://github.com/Mingyue-eva/AgentCognitive)
+
 - **[ICSE'25]** DesignRepair: Dual-Stream Design Guideline-Aware Frontend Repair with Large Language Models [[paper]](https://arxiv.org/pdf/2411.01606)  
   **Mingyue Yuan**, Jieshan Chen*, Zhenchang Xing, Aaron Quigley, Yuyu Luo, Tanqi Luo, Gelareh Mohammadi, Qinghua Lu, Liming Zhu *Acceptance rate: 20%*
 
