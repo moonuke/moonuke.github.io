@@ -173,11 +173,21 @@ a:hover {
 
 .hero-role {
     max-width: 680px;
-    margin: var(--career-space-xl) 0 0;
+    margin: var(--career-space-lg) 0 0;
     color: var(--career-accent-dark);
     font-size: clamp(1.15rem, 2vw, 1.4rem);
     font-weight: 600;
     line-height: 1.35;
+}
+
+.hero-name-cn {
+    margin: var(--career-space-md) 0 0;
+    color: var(--career-muted);
+    font-family: "Songti SC", "Noto Serif CJK SC", "STSong", serif;
+    font-size: 1.15rem;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 0.14em;
 }
 
 .hero-focus {
