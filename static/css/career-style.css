@@ -324,7 +324,8 @@ section .main-body li {
 
 /* News: consistent, scannable chronology */
 #news-md ul {
-    max-width: 980px;
+    width: 100%;
+    max-width: none;
     margin: 0;
     padding: 0;
     border-top: 1px solid var(--career-line);
@@ -497,6 +498,11 @@ section .main-body li {
     border-bottom: 1px solid var(--career-line);
 }
 
+#awards .award-list > li {
+    align-items: baseline;
+    padding: var(--career-space-md) 0;
+}
+
 #awards .award-list time {
     color: var(--career-muted);
     font-size: 0.9rem;
@@ -504,21 +510,11 @@ section .main-body li {
     font-variant-numeric: tabular-nums;
 }
 
-#awards .award-list div {
-    display: grid;
-    gap: 2px;
-}
-
 #awards .award-list strong {
     color: var(--career-ink);
-    font-size: 1.02rem;
+    font-size: 1rem;
     font-weight: 600;
-    line-height: 1.45;
-}
-
-#awards .award-list span {
-    color: var(--career-muted);
-    font-size: 0.92rem;
+    line-height: 1.4;
 }
 
 #experience .service-group {
