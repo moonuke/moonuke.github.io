@@ -454,6 +454,105 @@ section .main-body li {
     transition: background-color 240ms ease-out, box-shadow 240ms ease-out;
 }
 
+/* Awards and service records */
+#awards .award-list,
+#experience .service-list {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid var(--career-line);
+    list-style: none;
+}
+
+#awards .award-list > li,
+#experience .service-list > li {
+    display: grid;
+    grid-template-columns: 132px minmax(0, 1fr);
+    gap: var(--career-space-xl);
+    margin: 0;
+    padding: var(--career-space-lg) 0;
+    border-bottom: 1px solid var(--career-line);
+}
+
+#awards .award-list time {
+    color: var(--career-muted);
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+}
+
+#awards .award-list div {
+    display: grid;
+    gap: 2px;
+}
+
+#awards .award-list strong {
+    color: var(--career-ink);
+    font-size: 1.02rem;
+    line-height: 1.45;
+}
+
+#awards .award-list span {
+    color: var(--career-muted);
+    font-size: 0.92rem;
+}
+
+#experience .service-group {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent !important;
+}
+
+#experience .service-group + .service-group {
+    margin-top: var(--career-space-3xl);
+}
+
+#experience .service-group h3 {
+    margin: 0 0 var(--career-space-lg);
+    color: var(--career-ink);
+    font-family: "Source Serif 4", serif;
+    font-size: clamp(1.25rem, 2vw, 1.5rem);
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.service-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.service-meta span {
+    color: var(--career-accent-dark);
+    font-size: 0.88rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.service-meta time {
+    color: var(--career-muted);
+    font-size: 0.86rem;
+    font-variant-numeric: tabular-nums;
+}
+
+.service-content {
+    min-width: 0;
+}
+
+#experience .service-content p {
+    margin: 0;
+    color: var(--career-muted);
+    font-size: 0.92rem;
+    line-height: 1.55;
+}
+
+#experience .service-content .service-title {
+    margin-bottom: 3px;
+    color: var(--career-ink);
+    font-size: 1.02rem;
+    font-weight: 600;
+}
+
 .research-map-intro {
     max-width: 760px;
     margin-top: var(--career-space-3xl);
@@ -498,6 +597,19 @@ section .main-body li {
     }
 
     .publication-meta {
+        flex-direction: row;
+        align-items: baseline;
+        gap: var(--career-space-sm);
+    }
+
+    #awards .award-list > li,
+    #experience .service-list > li {
+        grid-template-columns: 1fr;
+        gap: var(--career-space-sm);
+        padding: var(--career-space-md) 0;
+    }
+
+    .service-meta {
         flex-direction: row;
         align-items: baseline;
         gap: var(--career-space-sm);
