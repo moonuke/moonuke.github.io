@@ -14,8 +14,8 @@
   </li>
 
   <li>
-    <span class="publication-anchor" id="pub-asc"></span>
-    <div class="publication-meta"><span class="publication-venue">ASC</span><time datetime="2026">2026</time></div>
+    <span class="publication-anchor" id="pub-asoc"></span>
+    <div class="publication-meta"><span class="publication-venue">ASOC</span><time datetime="2026">2026</time></div>
     <div class="publication-content">
       <p class="publication-title">HPG-Diff: Hierarchical Physics-Guided Diffusion with Differentiable Connectivity Constraints for Topology Optimization <span class="publication-actions"><a href="https://arxiv.org/pdf/2607.07233">paper</a></span></p>
       <p class="publication-authors">Jinbo Yang, <strong>Mingyue Yuan</strong>, Boyuan Zhang, Yoshifumi Kitamura, Shikai Jing</p>
