@@ -1,7 +1,7 @@
 const content_dir = 'contents/'
 const config_file = 'config.yml'
 const section_names = ['home', 'awards', 'experience', 'publications'];
-const content_version = '20260723-2';
+const content_version = '20260723-4';
 
 
 window.addEventListener('DOMContentLoaded', event => {
