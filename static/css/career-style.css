@@ -269,7 +269,8 @@ section header h2 .bi {
 }
 
 section .main-body {
-    max-width: 76ch;
+    width: 100%;
+    max-width: none;
     color: var(--career-ink);
     font-size: 1.03rem;
     font-weight: 400;
