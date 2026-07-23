@@ -342,6 +342,9 @@ section .main-body li {
 }
 
 .publication-anchor {
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-start: 0;
     scroll-margin-top: 96px;
 }
 
