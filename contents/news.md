@@ -1,10 +1,8 @@
-- **[June 2026]**: Our paper accepted at TOSEM!
-- **[Oct 2025]**: Our [paper](https://dl.acm.org/doi/10.1145/3773035) accepted at TOCHI.
-- **[July - Sep 2025]**: Visiting researcher at Tohoku University, invited by [Prof. Yoshifumi Kitamura](https://www.riec.tohoku.ac.jp/~kitamura/).
-- **[May 2025]**: Presented [our work](https://arxiv.org/pdf/2503.17620) at the [GenAICHI Workshop](https://generativeaiandhci.github.io/).
-- **[May 2025]**: Awarded Google Conference Scholarship.
-- **[April 2025]**: Presented [DesignRepair](https://arxiv.org/pdf/2411.01606) at the ICSE conference.
-- **[Mar 2025]**: Awarded Australian Graduate School of Engineering (AGSE) Industry PhD Scholarship.
-- **[May 2024]**: Presented [MAxPrototyper](https://arxiv.org/abs/2405.07131) at the [CHI 24 Computational UI Workshop](https://sites.google.com/view/computational-uichi24/home).
-
-
+- <time class="news-date" datetime="2026-06">June 2026</time><span>Two papers accepted: [Confidence vs. Competence](#pub-tosem) at **TOSEM** and [HPG-Diff](#pub-asc) at **ASC**.</span>
+- <time class="news-date" datetime="2025-10">October 2025</time><span>[Towards Human–AI Synergy in UI Design](#pub-tochi) accepted at **TOCHI**.</span>
+- <time class="news-date" datetime="2025-07/2025-09">July–September 2025</time><span>Visiting Researcher at Tohoku University, hosted by [Prof. Yoshifumi Kitamura](https://www.riec.tohoku.ac.jp/~kitamura/).</span>
+- <time class="news-date" datetime="2025-05">May 2025</time><span>Presented [A Case Study of Scalable Content Annotation](#pub-genaichi) at the [GenAICHI Workshop](https://generativeaiandhci.github.io/).</span>
+- <time class="news-date" datetime="2025-05">May 2025</time><span>Awarded the **Google Conference Scholarship**.</span>
+- <time class="news-date" datetime="2025-04">April 2025</time><span>Presented [DesignRepair](#pub-icse25) at **ICSE 2025**.</span>
+- <time class="news-date" datetime="2025-03">March 2025</time><span>Awarded the **Australian Graduate School of Engineering Industry PhD Scholarship**.</span>
+- <time class="news-date" datetime="2024-05">May 2024</time><span>Presented [MAxPrototyper](#pub-maxprototyper) at the [CHI 2024 Computational UI Workshop](https://sites.google.com/view/computational-uichi24/home).</span>

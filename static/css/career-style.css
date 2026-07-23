@@ -299,6 +299,64 @@ section .main-body li {
     color: var(--career-ink);
 }
 
+/* News: consistent, scannable chronology */
+#news-md ul {
+    max-width: 980px;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid var(--career-line);
+    list-style: none;
+}
+
+#news-md li {
+    display: grid;
+    grid-template-columns: minmax(140px, 176px) minmax(0, 1fr);
+    gap: var(--career-space-xl);
+    margin: 0;
+    padding: var(--career-space-lg) 0;
+    border-bottom: 1px solid var(--career-line);
+}
+
+#news-md .news-date {
+    color: var(--career-muted);
+    font-size: 0.92rem;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    line-height: 1.75;
+}
+
+#news-md li > span {
+    min-width: 0;
+}
+
+#news-md a {
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+}
+
+#news-md a[href^="#pub-"] {
+    font-weight: 650;
+}
+
+.publication-anchor {
+    scroll-margin-top: 96px;
+}
+
+#publications li.publication-hit {
+    border-radius: 4px;
+    background: #e9f0f4;
+    box-shadow: 0 0 0 8px #e9f0f4;
+    transition: background-color 240ms ease-out, box-shadow 240ms ease-out;
+}
+
+@media (max-width: 575.98px) {
+    #news-md li {
+        grid-template-columns: 1fr;
+        gap: 2px;
+        padding: var(--career-space-md) 0;
+    }
+}
+
 /* Research map: one restrained visual language */
 .research-map {
     --research-map-line: #d9e0e6;

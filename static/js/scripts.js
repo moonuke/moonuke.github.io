@@ -62,11 +62,36 @@ window.addEventListener('DOMContentLoaded', event => {
 
     // 添加对News部分的支持
     if (document.getElementById('news-md')) {
+        const newsContainer = document.getElementById('news-md');
         fetch('contents/news.md')
             .then(response => response.text())
             .then(text => {
-                document.getElementById('news-md').innerHTML = marked.parse(text);
+                newsContainer.innerHTML = marked.parse(text);
             });
+
+        newsContainer.addEventListener('click', event => {
+            const link = event.target.closest('a[href^="#pub-"]');
+            if (!link) return;
+
+            const target = document.querySelector(link.getAttribute('href'));
+            if (!target) return;
+
+            event.preventDefault();
+            document.querySelectorAll('.publication-hit').forEach(item => {
+                item.classList.remove('publication-hit');
+            });
+
+            const publicationItem = target.closest('li');
+            if (publicationItem) {
+                publicationItem.classList.add('publication-hit');
+            }
+
+            history.replaceState(null, '', link.getAttribute('href'));
+            window.scrollTo({
+                top: target.getBoundingClientRect().top + window.scrollY - 88,
+                behavior: 'smooth'
+            });
+        });
     }
 
 }); 
