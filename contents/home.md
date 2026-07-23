@@ -4,7 +4,7 @@ I am a PhD candidate at the [University of New South Wales](https://www.unsw.edu
 
 My research lies at the intersection of **Automated Software Development**, **AI for Software Engineering**, and **Human–Computer Interaction**. I build human-centred LLM and agent systems for controllable and reliable software generation, with a focus on **generative UI**, **code generation and repair**, and **reliable AI agents**.
 
-Prior to my PhD, I was a Senior R&D Engineer (T5) at Baidu's DuerOS, where I led the 0-to-1 development and launch of AI features for Xiaodu devices, including fingertip reading and search, fitness motion tracking and coaching, gesture-based device control, and Face ID. I hold a Master's degree in Electronic Engineering and Information Science from the University of Science and Technology of China (USTC), advised by Prof. Dong Yin.
+Prior to my PhD, I was a **Senior R&D Engineer (T5)** at **Baidu's DuerOS**, where I led the **0-to-1 development and launch** of AI features for Xiaodu devices, including **fingertip reading and search**, **fitness motion tracking and coaching**, **gesture-based device control**, and **Face ID**. I hold a **Master's degree in Electronic Engineering and Information Science** from the **University of Science and Technology of China (USTC)**, advised by Prof. Dong Yin.
 
 📩📩📩 **Open to collaborations** and currently on the job market. Feel free to reach out for research collaborations or my detailed CV.
 
