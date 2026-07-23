@@ -93,6 +93,10 @@ a:hover {
     background: var(--career-accent);
 }
 
+.header .navbar-nav:has(.nav-link:hover) .nav-link.active:not(:hover)::after {
+    opacity: 0;
+}
+
 .navbar-toggler {
     border: 1px solid var(--career-line);
     border-radius: 4px;
