@@ -1,3 +1,4 @@
+- <time class="news-date" datetime="2026-09">September 2026</time><span>[Intent2CAD: How Semantic-Parametric Supervision Shapes Text-to-CAD Generation](https://neurips.cc/virtual/2026/poster/155244) accepted at **NeurIPS 2026**.</span>
 - <time class="news-date" datetime="2026-06">June 2026</time><span>Two papers accepted: [Confidence vs. Competence](#pub-tosem) at **TOSEM** and [HPG-Diff](#pub-asoc) at **ASOC**.</span>
 - <time class="news-date" datetime="2025-10">October 2025</time><span>[Towards Human–AI Synergy in UI Design](#pub-tochi) accepted at **TOCHI**.</span>
 - <time class="news-date" datetime="2025-07/2025-09">July–September 2025</time><span>Visiting Researcher at Tohoku University, hosted by [Prof. Yoshifumi Kitamura](https://www.riec.tohoku.ac.jp/~kitamura/).</span>
